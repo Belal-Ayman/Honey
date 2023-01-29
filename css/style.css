@@ -294,6 +294,23 @@ header .container nav .icons i:hover {
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 376px) {
+  .home .image {
+    text-align: center;
+  }
+  .home .image img {
+    max-width: 220px;
+  }
+}
+@media (width: 414px) {
+  .home .image {
+    text-align: center;
+  }
+  .home .image img {
+    max-width: 250px;
+  }
+}
 /* End Home */
 /* Start details  */
 
@@ -538,6 +555,7 @@ header .container nav .icons i:hover {
   width: 100%;
   cursor: pointer;
   transition: 0.3s;
+  margin-bottom: 10px;
 }
 
 .contact .container .image img:hover {
@@ -561,6 +579,11 @@ header .container nav .icons i:hover {
   line-height: 30px;
   max-width: 950px;
   margin-bottom: 3rem;
+}
+
+.contact .container .icon-social {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contact .container .icon-social i {
@@ -622,6 +645,5 @@ header .container nav .icons i:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-
 }
 /* End contact  */
